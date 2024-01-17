@@ -1,0 +1,44 @@
+.LoginForm {
+    color: #F6F2EB;
+    padding: 4px;
+    width: 98%;
+}
+
+.LoginForm__error {
+    border: 1px solid #F6F2EB;
+    border-radius: 8px;
+    color: #f00;
+    font-weight: bold;
+    margin: 4px;
+    padding: 4px;
+}
+
+.LoginForm__row {
+    padding: 4px;
+}
+
+.LoginForm__row input {
+    margin-left: 4px;
+    width: 218px;
+}
+
+.LoginForm__row button {
+    background-color: #F6F2EB;
+    border-radius: 8px;
+    color: #222;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.LoginForm__row.right {
+    margin-right: 6px;
+    text-align: right;
+}
+
+.LoginForm__logged_in {
+    background-color: #ccc;
+    border: 2px solid #222;
+    border-radius: 8px;
+    width: 300px;
+    padding: 4px;
+}

@@ -1,0 +1,44 @@
+.App {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 2px solid #425b76;
+    color: #222;
+    height: 100px;
+    padding: 4px;
+}
+
+.sidebar {
+    background-color: #132C41;
+    color: #fff;
+    float: left;
+    height: calc(100vh - 138px);
+    padding: 4px;
+    width: 330px;
+    text-align: center;
+}
+
+.main {
+    float: right;
+    height: 100%;
+    padding: 4px;
+    width: calc(100% - 348px);
+}
+
+.footer {
+    border-top: 2px solid #425b76;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.App-logo {
+    height: 100px;
+}
